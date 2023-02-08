@@ -1,0 +1,221 @@
+.home {
+    padding: 72px 12px 0px 12px !important;
+    height: 90%;
+}
+
+.oguex-bg {
+    background-image: url("/public/cryp-ogue.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 860px;
+}
+
+.contact-bg {
+    background-image: url("/public/cryp-ogue.jpg");
+    padding: 24px 0;
+}
+
+.bold-text {
+    font-size: 14pt !important;
+    font-weight: 900 !important;
+}
+
+.align-start {
+    text-align: start !important;
+}
+
+.line-space-medium {
+    line-height: 1.8em !important;
+}
+
+.margin-small {
+    margin: 8px !important;
+}
+
+.about-text {
+    margin: auto 12px !important;
+    font-weight: 900 !important;
+    font-size: 12pt !important;
+}
+
+.big-text {
+    font-size: calc(30pt + 0.390625vw) !important;
+    font-weight: 900 !important;
+    line-height: 1.2 !important;
+    word-wrap: break-word !important;
+}
+
+.services-header {
+    text-align: center !important;
+    font-size: larger !important;
+    font-weight: 600 !important;
+}
+
+.orange-text {
+    color: #F73E14 !important;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.side-margins-large {
+    margin: auto 32px !important;
+}
+
+.overlay {
+    height: 80vh;
+}
+
+.white-text {
+    color: white;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.fat-text {
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.margin-top-small-percent {
+    margin-top: 8% !important;
+}
+
+.padding-small {
+    padding: 12px !important;
+}
+
+.center-content {
+    display: flex !important;
+    margin: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.margin-top-small {
+    margin-top: 24px !important;
+}
+
+.space-margin {
+    margin: 8px 0px !important;
+}
+
+.round-btn {
+    border-radius: 24px !important;
+    font-size: 12pt !important;
+    padding: 8px !important;
+    height: 52px;
+    margin: 0px 12px !important;
+    margin-bottom: 12px !important;
+}
+
+.orange-btn {
+    background-color: #f73e14 !important;
+    width: 180px;
+    color: white !important;
+}
+
+.orange-btn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.white-btn {
+    background-color: white !important;
+    width: 220px;
+    color: black !important;
+}
+
+.white-btn:hover {
+    background-color: #f73e14 !important;
+    color: white !important;
+}
+
+.card-info {
+    background-color: #d5d5d5 !important;
+    border-radius: 24px !important;
+    margin: auto !important;
+    width: 80% !important;
+}
+
+.image-card {
+    height: 320px;
+    width: 100%;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.content-card {
+    margin: auto !important;
+}
+
+.about-image-col {
+    margin: auto !important;
+    display: flex !important;
+}
+
+.about-image {
+    width: 80%;
+    margin: 12px auto;
+}
+
+.carousel-style {
+    padding: 10% !important;
+    background-color: #d5d5d5 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .img-overlay {
+        margin-top: 24px !important;
+    }
+
+    .margin-top-small-percent {
+        margin-top: 4% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    oguex-bg {
+        background-image: url("/public/cryp-ogue.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 760px;
+    }
+
+    .home {
+        height: auto;
+    }
+
+    .overlay {
+        height: 55vh;
+    }
+
+    .image-card {
+        height: 320px;
+        width: 100%;
+        border-radius: 24px 24px 0px 0px;
+    }
+
+    .content-card {
+        margin-top: 12px !important;
+    }
+
+    .white-btn {
+        background-color: white !important;
+        width: 180px;
+        color: black !important;
+    }
+
+}
